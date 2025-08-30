@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "Home"
 ---
 
 # Haowen Zhong (钟浩文)
