@@ -1,5 +1,5 @@
 ---
-layout: default
+title: Haowen Zhong
 ---
 
 # Haowen Zhong (钟浩文)
