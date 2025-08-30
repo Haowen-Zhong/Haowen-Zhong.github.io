@@ -1,0 +1,11 @@
+body {
+  color: white;
+}
+
+a {
+  color: #77ccff; /* 你喜欢的链接颜色 */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff; /* 保持标题也是白色 */
+}
