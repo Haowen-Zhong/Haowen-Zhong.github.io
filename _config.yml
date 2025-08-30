@@ -1,4 +1,4 @@
 title: "Haowen Zhong"
 description: "Gravitational Wave Enthusiast"
-theme: architect  # 禁用默认主题
+theme: jekyll-theme-minimal  # 禁用默认主题
 markdown: kramdown
