@@ -6,6 +6,14 @@ a {
   color: #c08bbd; /* 你喜欢的链接颜色 */
 }
 
+.content-container {
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色背景 */
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 h1, h2, h3, h4, h5, h6 {
-  color: #ffffff; /* 保持标题也是白色 */
+  color: white; /* 保持标题也是白色 */
 }
