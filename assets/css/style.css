@@ -1,19 +1,57 @@
+/* 基础字体和背景设置 */
+
+html, body {
+  height: auto;
+  min-height: 100vh;
+}
+
 body {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
   color: white;
+  background-image: url('/assets/img/your-background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
 }
 
-a {
-  color: #c08bbd; /* 你喜欢的链接颜色 */
-}
-
+/* 容器居中但内容靠左 */
 .content-container {
-  background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色背景 */
-  padding: 2rem;
-  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 3rem 4rem;
+  border-radius: 12px;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 2rem auto;
+  text-align: left;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: white; /* 保持标题也是白色 */
+/* 链接颜色美化 */
+a {
+  color: #cb9f40;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* 标题统一设置 */
+h1, h2, h3 {
+  color: white;
+  margin-bottom: 0.8rem;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 22px;
 }
