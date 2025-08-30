@@ -2,7 +2,7 @@
 title: Haowen Zhong
 ---
 <link rel="stylesheet" href="custom.css">
-## Haowen Zhong <span class="chinese-name">(钟浩文)</span>
+# Haowen Zhong <span class="chinese-name">(钟浩文)</span>
 ## PhD candidate | University of Minnesota | Gravitational Wave Physics
 ## PhD Advisor: Vuk Mandic
 ## BS  Advisor: Biping Gong <span class="chinese-name">(龚碧平)</span>
