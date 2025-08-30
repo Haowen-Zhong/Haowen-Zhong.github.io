@@ -42,6 +42,7 @@ arXiv: 2209.11877 [gr-qc].
 ## 📬 Contact
 
 **Email**: zhong461@umn.edu  
-**GitHub**: [@yourusername](https://github.com/Haowen-Zhong)  
-**CV**: [Download PDF](assets/files/HaowenZhong_CV.pdf)
+**GitHub**: [Check my GitHub page here!](https://github.com/Haowen-Zhong)  
+**INSPIRE**: [Check My Publications!](https://inspirehep.net/authors/2613804?ui-citation-summary=true)
+**CV**: [Download My CV!](assets/files/HaowenZhong_CV.pdf)
 
