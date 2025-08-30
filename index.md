@@ -2,7 +2,7 @@
 title: Haowen Zhong
 ---
 <link rel="stylesheet" href="custom.css">
-# # Haowen Zhong <span class="chinese-name">钟浩文</span>
+# # Haowen Zhong <span class="chinese-name">(钟浩文)</span>
 ## PhD candidate | University of Minnesota | Gravitational Wave Physics
 ## Advisor: Vuk Mandic
 
@@ -21,6 +21,7 @@ title: Haowen Zhong
 
 ### Simulation-Based Inference (SBI)
    - Using a likelihood-free method to infer physical parameters in an anisotropic search of a SGWB
+
 ---
 
 ## 📄 Selected Publications
