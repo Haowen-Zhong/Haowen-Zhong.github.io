@@ -1,4 +1,8 @@
 title: "Haowen Zhong"
 description: "Gravitational Wave Enthusiast"
+<<<<<<< HEAD
 theme: Architect  
+=======
+theme: Architect  # 禁用默认主题
+>>>>>>> da97fceb3df89d4f5c2c5c7025fa034cfcb5f0b7
 markdown: kramdown
