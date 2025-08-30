@@ -34,8 +34,8 @@ notching out resolvable compact binary foregrounds with next-generation gravitat
 - A. I. Renzini et al., “pygwb: A Python-based Library for Gravitational-wave Background Searches,”
 [Apj **952**,25](https://arxiv.org/abs/2303.15696)
 - **H. Zhong**, R. Ormiston, and V. Mandic, “Detecting cosmological gravitational wave background after
-removal of compact binary coalescences in future gravitational wave detectors,” [PRD, **107**,  064048](https://arxiv.org/abs/2209.11877), [Erratum: PRD **108**, 089902](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.089902)
-- **H. Zhong**, B. Gong, and T. Qiu, “Gravitational waves from bubble collisions in FLRW spacetime,” [JHEP, **02**, 077](https://arxiv.org/abs/2107.01845)
+removal of compact binary coalescences in future gravitational wave detectors,” [PRD **107**,  064048](https://arxiv.org/abs/2209.11877), [Erratum: PRD **108**, 089902](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.089902)
+- **H. Zhong**, B. Gong, and T. Qiu, “Gravitational waves from bubble collisions in FLRW spacetime,” [JHEP **02**, 077](https://arxiv.org/abs/2107.01845)
 
 ---
 ## 📬 Contact
