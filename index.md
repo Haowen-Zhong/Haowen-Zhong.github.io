@@ -41,7 +41,7 @@ removal of compact binary coalescences in future gravitational wave detectors,�
 
 ---
 ## 🤫 More About Myself
-I was born in 1998 on a small island in Zhoushan, Zhejiang <span class="chinese-name">(浙江舟山)</span>, China. Around the age of 11, I became obsessed with a biweekly magazine called *Exploration of UFO* <span class="chinese-name">(《飞碟探索》)</span>. I was fascinated by all the stories about UFOs, aliens, and the possibility of highly intelligent life on distant extroplantes. That early curiosity made *(astro)physics* my favorite subject starting in middel school.
+I was born in 1998 on a small island in Zhoushan, Zhejiang <span class="chinese-name">(浙江舟山)</span>, China. Around the age of 11, I became obsessed with a biweekly magazine called *The Journal of UFO Research* <span class="chinese-name">(《飞碟探索》)</span>. I was fascinated by all the stories about UFOs, aliens, and the possibility of highly intelligent life on distant extroplantes. That early curiosity made *(astro)physics* my favorite subject starting in middel school.
 
 After taking the National College Entrance Examniation <span class="chinese-name">(高考)</span> in 2017, I was addimitted to Huazhong University of Science and Technology (HUST), where I spent 4 unforgettable years. In my second year, I joined Prof. Gong's research group to get a taste of research. The research's main focus was on *pulsars*, which, to be honest, wasn't a topic I found particularly exciting. (*You might be wondering why I chose to join a group working on something I wasn't that into--well, that's a long story, and maybe I'll tell you if we ever meet in person.*) 
 
