@@ -18,7 +18,7 @@ title: Haowen Zhong
 ### Hierarchical Bayesian Inference
    - Jointly modeling the CBC foreground and a SGWB with a cosmological origin
    - Test general relativity (GR)
-   - Using SGWB to infer more physical parameters. E.g. other polarizations in non-GR theories, $H_0, \Lambda_0,...$ etc
+   - Using SGWB to infer more physical parameters. E.g. other polarizations in non-GR theories, Hubble constants etc
 
 ### Machine Learning & Simulation-Based Inference (SBI)
    - Using a likelihood-free method to infer physical parameters
