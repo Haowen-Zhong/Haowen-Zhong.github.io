@@ -61,7 +61,7 @@ In 2021, I started my PhD journey at the University of Minnesota under the super
 
 **INSPIRE**: [Check My Publications!](https://inspirehep.net/authors/2613804?ui-citation-summary=true)
 
-**CV**: [Download My CV!](assets/files/CV_Haowen.pdf) (updated September 2025)
+**CV**: [Download My CV!](assets/files/CV_Haowen.pdf) (updated October 2025)
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async
