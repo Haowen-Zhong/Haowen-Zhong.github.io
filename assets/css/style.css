@@ -147,6 +147,11 @@ svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width:
 .btn-primary:hover { color: #1a1204; background: linear-gradient(135deg, #ffd58a, var(--gold-2)); box-shadow: 0 8px 30px rgba(255, 157, 77, .45); }
 
 .chirp { position: absolute; left: 0; right: 0; bottom: 28px; width: 100%; height: 90px; opacity: .9; }
+.chirp-label {
+  position: absolute; right: max(20px, calc((100vw - var(--maxw)) / 2)); bottom: 8px; margin: 0;
+  font: 500 11px/1 var(--display); letter-spacing: .08em; color: var(--faint);
+}
+.chirp-label sub { font-size: .8em; }
 
 /* ───────────── Sections ───────────── */
 main { max-width: var(--maxw); margin: 0 auto; padding: 0 20px; }
