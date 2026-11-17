@@ -1,4 +1,7 @@
-title: "Haowen Zhong's Personal Website"
-description: "welcome to my homepage!"
-theme: jekyll-theme-architect
-markdown: kramdown
+title: "Haowen Zhong"
+description: "Postdoctoral Fellow in gravitational-wave physics at Johns Hopkins University"
+exclude:
+  - "*.heic"
+  - Photo.pdf
+  - README.md
+  - CV.tex

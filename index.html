@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Haowen Zhong · Gravitational-Wave Physics</title>
+  <meta name="description" content="Haowen Zhong (钟浩文) — Postdoctoral Fellow at Johns Hopkins University working on stochastic gravitational-wave backgrounds, hierarchical Bayesian inference and simulation-based inference.">
+  <meta property="og:title" content="Haowen Zhong · Gravitational-Wave Physics">
+  <meta property="og:description" content="Postdoctoral Fellow at Johns Hopkins University · Stochastic GW backgrounds · Bayesian inference">
+  <meta property="og:image" content="assets/images/BBH.png">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='24' cy='34' r='12' fill='%23070b1a' stroke='%23f5c26b' stroke-width='3'/><circle cx='42' cy='28' r='9' fill='%23070b1a' stroke='%23f5c26b' stroke-width='3'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ───────────── Navigation ───────────── -->
+  <header class="nav" id="nav">
+    <a class="nav-brand" href="#top">H<span>Z</span></a>
+    <nav>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ───────────── Hero ───────────── -->
+  <section class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <img class="avatar" src="assets/images/avatar.jpg" alt="Portrait of Haowen Zhong" width="168" height="168">
+      <div class="hero-text">
+        <p class="eyebrow">Gravitational-Wave Physics</p>
+        <h1>Haowen Zhong <span class="zh">钟浩文</span></h1>
+        <p class="tagline">
+          Postdoctoral Fellow at <strong>Johns Hopkins University</strong>, listening to the faint
+          hum of the Universe — the stochastic gravitational-wave background.
+        </p>
+        <ul class="advisors">
+          <li><span>PhD</span>University of Minnesota · Vuk Mandic</li>
+          <li><span>BS</span>HUST · Biping Gong <span class="zh">龚碧平</span></li>
+        </ul>
+        <div class="actions">
+          <a class="btn btn-primary" href="assets/files/CV_Haowen.pdf">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>CV
+          </a>
+          <a class="btn" href="mailto:hzhong23@jh.edu">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Email
+          </a>
+          <a class="btn" href="https://inspirehep.net/authors/2613804?ui-citation-summary=true">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5m0 14h16M8 15l3-4 3 2 5-6"/></svg>INSPIRE
+          </a>
+          <a class="btn" href="https://github.com/Haowen-Zhong">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1.5-4-2-6-2.5m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- animated inspiral "chirp" strain -->
+    <canvas class="chirp" id="chirp" aria-hidden="true"></canvas>
+  </section>
+
+  <main>
+
+    <!-- ───────────── Research ───────────── -->
+    <section class="section" id="research">
+      <div class="section-head">
+        <p class="kicker">01</p>
+        <h2>Research Interests</h2>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12c2-6 4-6 6 0s4 6 6 0 4-6 6 0"/><path d="M2 12h20" opacity=".35"/></svg>
+          </div>
+          <h3>Stochastic GW Background</h3>
+          <ul>
+            <li>Searching for an SGWB with current-generation detectors.</li>
+            <li>Removing the foreground from compact binary coalescences (CBC) with next-generation (XG) detectors.</li>
+            <li>Modeling the statistical properties of the CBC foreground — mean, variance, skewness, kurtosis, … <a class="soon" href="https://arxiv.org/abs/2608.11119">New paper</a></li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="2.2"/><circle cx="5" cy="18" r="2.2"/><circle cx="12" cy="18" r="2.2"/><circle cx="19" cy="18" r="2.2"/><path d="M12 7.2 5.8 16M12 7.2V15.8M12 7.2l6.2 8.8"/></svg>
+          </div>
+          <h3>Hierarchical Bayesian Inference</h3>
+          <ul>
+            <li>Jointly modeling the CBC foreground and a cosmological SGWB.</li>
+            <li>Testing general relativity (GR) with populations of events.</li>
+            <li>Using the SGWB to infer more physics — extra polarizations in non-GR theories, the Hubble constant, etc.</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 9h6v6H9zM9 2v2m6-2v2M9 20v2m6-2v2M2 9h2m-2 6h2m16-6h2m-2 6h2"/></svg>
+          </div>
+          <h3>ML &amp; Simulation-Based Inference</h3>
+          <ul>
+            <li>Likelihood-free methods for inferring physical parameters when the likelihood is intractable.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ───────────── Publications ───────────── -->
+    <section class="section" id="publications">
+      <div class="section-head">
+        <p class="kicker">02</p>
+        <h2>Selected Publications</h2>
+        <a class="more" href="https://inspirehep.net/authors/2613804?ui-citation-summary=true">Full list on INSPIRE →</a>
+      </div>
+      <ol class="pubs">
+        <li class="pub reveal">
+          <div class="pub-meta"><span class="year">2026</span><span class="venue">Submitted</span></div>
+          <div class="pub-body">
+            <h3><code>StochAXtic</code>: a JAX-accelerated, end-to-end differentiable framework for gravitational-wave backgrounds from compact binary populations</h3>
+            <p class="authors"><b>H. Zhong</b>, E. Vislosky, E. Berti</p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-meta"><span class="year">2026</span><span class="venue">arXiv</span></div>
+          <div class="pub-body">
+            <h3>All you need is not Ω<sub>gw</sub>: Beyond the mean of the cross-correlation estimator when searching for an astrophysical gravitational-wave background</h3>
+            <p class="authors"><b>H. Zhong</b>, F. Iacovelli, V. Mandic, E. Berti</p>
+            <p class="links"><span class="badge">New</span><a href="https://arxiv.org/abs/2608.11119">arXiv:2608.11119</a></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-meta"><span class="year">2026</span><span class="venue">arXiv</span></div>
+          <div class="pub-body">
+            <h3>A thorough investigation of cross-correlation estimators for stochastic gravitational-wave background searches in ground-based detector data</h3>
+            <p class="authors"><b>H. Zhong</b>, J. D. Romano, V. Mandic, S. Kandhasamy, A. I. Renzini</p>
+            <p class="links"><span class="badge">New</span><a href="https://arxiv.org/abs/2606.23816">arXiv:2606.23816</a></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-meta"><span class="year">2026</span><span class="venue">PRD</span></div>
+          <div class="pub-body">
+            <h3>Importance of shot noise in the search for an isotropic stochastic gravitational-wave background with next generation detectors</h3>
+            <p class="authors"><b>H. Zhong</b>, V. Mandic</p>
+            <p class="links"><span class="ref">Phys. Rev. D <b>113</b>, 044048</span><a href="https://doi.org/10.1103/zkb6-klyh">Journal</a><a href="https://arxiv.org/abs/2509.15014">arXiv:2509.15014</a></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-meta"><span class="year">2025</span><span class="venue venue-prl">PRL</span></div>
+          <div class="pub-body">
+            <h3>Two-step procedure to detect cosmological gravitational wave backgrounds with next-generation terrestrial gravitational-wave detectors</h3>
+            <p class="authors"><b>H. Zhong</b>, L. Reali, B. Zhou, E. Berti, V. Mandic</p>
+            <p class="links"><span class="ref">Phys. Rev. Lett. <b>135</b>, 111401</span><a href="https://doi.org/10.1103/j9jg-4drj">Journal</a><a href="https://arxiv.org/abs/2501.17717">arXiv:2501.17717</a></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-meta"><span class="year">2024</span><span class="venue">PRD</span></div>
+          <div class="pub-body">
+            <h3>Multidimensional hierarchical tests of general relativity with gravitational waves</h3>
+            <p class="authors"><b>H. Zhong</b>, M. Isi, K. Chatziioannou, W. M. Farr</p>
+            <p class="links"><span class="ref">Phys. Rev. D <b>110</b>, 044053</span><a href="https://arxiv.org/abs/2405.19556">arXiv:2405.19556</a></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-meta"><span class="year">2024</span><span class="venue">PRD</span></div>
+          <div class="pub-body">
+            <h3>Searching for cosmological stochastic backgrounds by notching out resolvable compact binary foregrounds with next-generation gravitational-wave detectors</h3>
+            <p class="authors"><b>H. Zhong</b>, B. Zhou, L. Reali, E. Berti, V. Mandic</p>
+            <p class="links"><span class="ref">Phys. Rev. D <b>110</b>, 064047</span><a href="https://arxiv.org/abs/2406.10757">arXiv:2406.10757</a></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-meta"><span class="year">2023</span><span class="venue">ApJ</span></div>
+          <div class="pub-body">
+            <h3>pygwb: A Python-based library for gravitational-wave background searches</h3>
+            <p class="authors">A. I. Renzini et al. (incl. <b>H. Zhong</b>)</p>
+            <p class="links"><span class="ref">Astrophys. J. <b>952</b>, 25</span><a href="https://arxiv.org/abs/2303.15696">arXiv:2303.15696</a></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-meta"><span class="year">2023</span><span class="venue">PRD</span></div>
+          <div class="pub-body">
+            <h3>Detecting cosmological gravitational wave background after removal of compact binary coalescences in future gravitational wave detectors</h3>
+            <p class="authors"><b>H. Zhong</b>, R. Ormiston, V. Mandic</p>
+            <p class="links"><span class="ref">Phys. Rev. D <b>107</b>, 064048</span><a href="https://arxiv.org/abs/2209.11877">arXiv:2209.11877</a><a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.089902">Erratum: PRD <b>108</b>, 089902</a></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub-meta"><span class="year">2022</span><span class="venue">JHEP</span></div>
+          <div class="pub-body">
+            <h3>Gravitational waves from bubble collisions in FLRW spacetime</h3>
+            <p class="authors"><b>H. Zhong</b>, B. Gong, T. Qiu</p>
+            <p class="links"><span class="ref">JHEP <b>02</b>, 077</span><a href="https://arxiv.org/abs/2107.01845">arXiv:2107.01845</a></p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ───────────── About ───────────── -->
+    <section class="section" id="about">
+      <div class="section-head">
+        <p class="kicker">03</p>
+        <h2>More About Myself</h2>
+      </div>
+      <div class="about">
+        <ol class="timeline reveal">
+          <li><span class="t-year">1998</span><span class="t-what">Born on a small island in Zhoushan, Zhejiang <span class="zh">浙江舟山</span></span></li>
+          <li><span class="t-year">~2009</span><span class="t-what">Hooked on <em>The Journal of UFO Research</em> <span class="zh">《飞碟探索》</span></span></li>
+          <li><span class="t-year">2017</span><span class="t-what">BS at Huazhong University of Science and Technology</span></li>
+          <li><span class="t-year">2020</span><span class="t-what">Summer internship at Shanghai Astronomical Observatory</span></li>
+          <li><span class="t-year">2021</span><span class="t-what">PhD at the University of Minnesota</span></li>
+          <li class="now"><span class="t-year">Now</span><span class="t-what">Postdoctoral Fellow at Johns Hopkins University</span></li>
+        </ol>
+        <div class="story reveal">
+          <p>I was born in 1998 on a small island in Zhoushan, Zhejiang <span class="zh">(浙江舟山)</span>, China. Around the age of 11, I became obsessed with a biweekly magazine called <em>The Journal of UFO Research</em> <span class="zh">(《飞碟探索》)</span>. I was fascinated by all the stories about UFOs, aliens, and the possibility of highly intelligent life on distant exoplanets. That early curiosity made <em>(astro)physics</em> my favorite subject starting in middle school.</p>
+          <p>After taking the National College Entrance Examination <span class="zh">(高考)</span> in 2017, I was admitted to Huazhong University of Science and Technology (HUST), where I spent four unforgettable years. In my second year, I joined Prof. Gong's research group to get a taste of research. The group's main focus was on <em>pulsars</em>, which, to be honest, wasn't a topic I found particularly exciting. <span class="aside">(You might be wondering why I chose to join a group working on something I wasn't that into — well, that's a long story, and maybe I'll tell you if we ever meet in person.)</span></p>
+          <p>One day during a one-on-one meeting, my advisor casually suggested that I look into gravitational waves and cold atom interferometers. That was the first time I encountered gravitational waves — and I was instantly hooked. At the end of my third year, we were required to do a research internship. While most of my classmates stayed on campus to work with local faculty, I reached out to Prof. Han at the Shanghai Astronomical Observatory and spent two months there working on the Effective-One-Body formalism.</p>
+          <p>After that internship, I began my senior thesis project, which focused on the SGWB generated by bubble collisions during first-order phase transitions. That work eventually became my first published paper.</p>
+          <p>In 2021, I started my PhD journey at the University of Minnesota under the supervision of Prof. Mandic. Today I'm a Postdoctoral Fellow at Johns Hopkins University — still chasing that faint background hum, and still curious about what's out there.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── Contact ───────────── -->
+    <section class="section" id="contact">
+      <div class="section-head">
+        <p class="kicker">04</p>
+        <h2>Get in Touch</h2>
+      </div>
+      <div class="contact reveal">
+        <a class="contact-item" href="mailto:hzhong23@jh.edu">
+          <span class="c-label">Email</span><span class="c-value">hzhong23@jh.edu</span>
+        </a>
+        <a class="contact-item" href="https://github.com/Haowen-Zhong">
+          <span class="c-label">GitHub</span><span class="c-value">@Haowen-Zhong</span>
+        </a>
+        <a class="contact-item" href="https://inspirehep.net/authors/2613804?ui-citation-summary=true">
+          <span class="c-label">INSPIRE</span><span class="c-value">Publications &amp; citations</span>
+        </a>
+        <a class="contact-item" href="assets/files/CV_Haowen.pdf">
+          <span class="c-label">CV</span><span class="c-value">PDF · updated Nov 2026</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Haowen Zhong · Johns Hopkins University</p>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
